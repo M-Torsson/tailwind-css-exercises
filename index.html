@@ -83,13 +83,13 @@
 
       <div class="bg-white p-6 rounded-xl shadow-md flex items-center gap-4 max-w-md">
         <img
-          src="https://i.pravatar.cc/150?img=12"
+          src="./images/Adele.png"
           alt="Profile"
           class="w-12 h-12 rounded-full"
         />
 
         <div>
-          <h3 class="font-bold">John Doe</h3>
+          <h3 class="font-bold">Adele</h3>
           <p class="text-gray-600">Frontend Developer</p>
         </div>
       </div>
@@ -129,12 +129,113 @@
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+          src="./images/Responsive Design.jpg"
           alt="Coding"
           class="rounded-xl w-full h-64 object-cover"
         />
       </div>
     </section>
+<!-- Exercise 7: Product Grid -->
+<section id="ex-7">
+  <h2 class="text-2xl font-bold mb-4">7. Product Grid</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="./images/Smart Watch.jpg" alt="Smart Watch" class="w-full h-48 object-contain bg-white p-4" />
+      <div class="p-4">
+        <h3 class="font-bold">Smart Watch</h3>
+        <p class="text-blue-600 font-semibold">$99</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="./images/Headphones.jpg" alt="Headphones" class="w-full h-48 object-contain bg-white p-4" />
+      <div class="p-4">
+        <h3 class="font-bold">Headphones</h3>
+        <p class="text-blue-600 font-semibold">$79</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="./images/Running Shoes.avif" alt="Running Shoes" class="w-full h-48 object-contain bg-white p-4" />
+      <div class="p-4">
+        <h3 class="font-bold">Running Shoes</h3>
+        <p class="text-blue-600 font-semibold">$120</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="./images/Phone Case.webp" alt="Phone Case" class="w-full h-48 object-contain bg-white p-4" />
+      <div class="p-4">
+        <h3 class="font-bold">Phone Case</h3>
+        <p class="text-blue-600 font-semibold">$25</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="./images/Perfume.jpg" alt="Perfume" class="w-full h-48 object-contain bg-white p-4" />
+      <div class="p-4">
+        <h3 class="font-bold">Perfume</h3>
+        <p class="text-blue-600 font-semibold">$55</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="./images/Camera.jpg" alt="Camera" class="w-full h-48 object-cover" />
+      <div class="p-4">
+        <h3 class="font-bold">Camera</h3>
+        <p class="text-blue-600 font-semibold">$299</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Exercise 8: Hero Section with Overlay -->
+<section id="ex-8">
+  <h2 class="text-2xl font-bold mb-4">8. Hero Section with Overlay</h2>
+
+  <div
+    class="relative h-80 rounded-xl overflow-hidden bg-cover bg-center"
+    style="background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200');"
+  >
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <div class="relative h-full flex items-center justify-center text-center text-white p-6">
+      <div>
+        <h3 class="text-4xl font-bold mb-4">Build Beautiful Websites</h3>
+        <p class="text-xl">Create modern layouts quickly using Tailwind CSS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Exercise 9: Pricing Table Comparison -->
+<section id="ex-9">
+  <h2 class="text-2xl font-bold mb-4">9. Pricing Table Comparison</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+    <div class="bg-white p-6 rounded-xl shadow-md border">
+      <h3 class="text-xl font-bold mb-2">Basic</h3>
+      <p class="text-3xl font-extrabold mb-4">$9</p>
+      <p class="text-gray-600 mb-6">For small personal projects.</p>
+      <button class="w-full bg-gray-800 text-white py-2 rounded-lg">Choose Plan</button>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow-xl border-2 border-blue-500 scale-105">
+      <h3 class="text-xl font-bold mb-2 text-blue-600">Pro</h3>
+      <p class="text-3xl font-extrabold mb-4">$29</p>
+      <p class="text-gray-600 mb-6">Best choice for developers.</p>
+      <button class="w-full bg-blue-600 text-white py-2 rounded-lg">Choose Plan</button>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow-md border">
+      <h3 class="text-xl font-bold mb-2">Enterprise</h3>
+      <p class="text-3xl font-extrabold mb-4">$99</p>
+      <p class="text-gray-600 mb-6">For teams and companies.</p>
+      <button class="w-full bg-gray-800 text-white py-2 rounded-lg">Choose Plan</button>
+    </div>
+  </div>
+</section>
 
   </div>
 </body>
