@@ -157,7 +157,7 @@
     </div>
 
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
-      <img src="./images/Running Shoes.avif" alt="Running Shoes" class="w-full h-48 object-contain bg-white p-4" />
+      <img src="./images/Running Shoes.png" alt="Running Shoes" class="w-full h-48 object-contain bg-white p-4" />
       <div class="p-4">
         <h3 class="font-bold">Running Shoes</h3>
         <p class="text-blue-600 font-semibold">$120</p>
@@ -181,7 +181,7 @@
     </div>
 
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
-      <img src="./images/Camera.jpg" alt="Camera" class="w-full h-48 object-cover" />
+      <img src="./images/Camera.png" alt="Camera" class="w-full h-48 object-cover" />
       <div class="p-4">
         <h3 class="font-bold">Camera</h3>
         <p class="text-blue-600 font-semibold">$299</p>
@@ -233,6 +233,112 @@
       <p class="text-3xl font-extrabold mb-4">$99</p>
       <p class="text-gray-600 mb-6">For teams and companies.</p>
       <button class="w-full bg-gray-800 text-white py-2 rounded-lg">Choose Plan</button>
+    </div>
+  </div>
+</section>
+<!-- Exercise 10: Simple Navigation Bar -->
+<section id="ex-10">
+  <h2 class="text-2xl font-bold mb-4">10. Simple Navigation Bar</h2>
+
+  <nav class="sticky top-0 z-10 flex justify-between items-center bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-md">
+    <div class="text-2xl font-bold text-blue-600">
+      Logo
+    </div>
+
+    <div class="flex gap-6">
+      <a href="#" class="hover:text-blue-500 transition-colors">Home</a>
+      <a href="#" class="hover:text-blue-500 transition-colors">About</a>
+      <a href="#" class="hover:text-blue-500 transition-colors">Services</a>
+      <a href="#" class="hover:text-blue-500 transition-colors">Contact</a>
+    </div>
+  </nav>
+</section>
+
+<!-- Exercise 11: Custom Flexbox Alignment -->
+<section id="ex-11">
+  <h2 class="text-2xl font-bold mb-4">11. Custom Flexbox Alignment</h2>
+
+  <div class="space-y-6">
+
+    <div>
+      <h3 class="font-bold mb-2">Layout 1: Centered Both Ways</h3>
+      <div class="h-32 bg-white rounded-xl shadow-md flex justify-center items-center">
+        <div class="w-12 h-12 bg-blue-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-green-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-yellow-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-red-500 rounded-lg"></div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Layout 2: Space Between</h3>
+      <div class="h-32 bg-white rounded-xl shadow-md flex justify-between items-center p-4">
+        <div class="w-12 h-12 bg-blue-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-green-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-yellow-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-red-500 rounded-lg"></div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Layout 3: Bottom Right</h3>
+      <div class="h-32 bg-white rounded-xl shadow-md flex justify-end items-end gap-2 p-4">
+        <div class="w-12 h-12 bg-blue-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-green-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-yellow-500 rounded-lg"></div>
+        <div class="w-12 h-12 bg-red-500 rounded-lg"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Exercise 12: Feature List with Icons -->
+<section id="ex-12">
+  <h2 class="text-2xl font-bold mb-4">12. Feature List with Icons</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Feature 1 -->
+    <div class="group bg-white p-6 rounded-xl shadow-md">
+      <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+        <img
+          src="./images/speed.png"
+          alt="Speed"
+          class="w-8 h-8 object-contain"
+        />
+      </div>
+
+      <h3 class="font-bold mb-2">Fast Performance</h3>
+      <p class="text-gray-600">
+        Build fast and responsive layouts with Tailwind.
+      </p>
+    </div>
+    <!-- Feature 2 -->
+    <div class="group bg-white p-6 rounded-xl shadow-md">
+      <div class="w-14 h-14 bg-green-100 rounded-lg flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+        <img
+          src="./images/clean.png"
+          alt="Design"
+          class="w-8 h-8 object-contain"
+        />
+      </div>
+      <h3 class="font-bold mb-2">Clean Design</h3>
+      <p class="text-gray-600">
+        Use utility classes to create clean UI components.
+      </p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="group bg-white p-6 rounded-xl shadow-md">
+      <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
+        <img
+          src="./images/Customize.png"
+          alt="Customize"
+          class="w-8 h-8 object-contain"
+        />
+      </div>
+      <h3 class="font-bold mb-2">Easy to Customize</h3>
+      <p class="text-gray-600">
+        Change spacing, colors, and layouts directly in HTML.
+      </p>
     </div>
   </div>
 </section>
